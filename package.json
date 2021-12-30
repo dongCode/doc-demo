@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress-dumi/vuepress-theme-dumi": "^0.3.8",
+    "core-js": "^2.6.12",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-demo-code": "^0.6.0"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.3"
+  }
+}
